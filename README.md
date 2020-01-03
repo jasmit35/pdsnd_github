@@ -2,10 +2,10 @@
 Created 01/03/2020.
 
 ### Project Title
-Replace the Project Title
+Bike Share
 
 ### Description
-Describe what your project is about and what it does
+Perform analysis of shared bicycle data.
 
 ### Files used
 Include the files used
