@@ -8,7 +8,12 @@ Bike Share
 Perform analysis of shared bicycle data.
 
 ### Files used
-Include the files used
+* README.md
+* bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Originally forked from the project:
+https://github.com/udacity/pdsnd_github
