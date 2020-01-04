@@ -6,6 +6,10 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+Constant global data used for selection and validation.
+"""
+
 VALID_DAYS = [
     "monday",
     "tuesday",
