@@ -50,7 +50,7 @@ def get_filters():
         city = str(input("===> "))
         city = city.lower()
         if city == "exit":
-            return None, None, None
+            exit(0) 
 
     # get user input for month (all, january, february, ... , june)
     month = ""
@@ -60,7 +60,8 @@ def get_filters():
         month = input("===> ")
         month = month.lower()
         if month == "exit":
-            return None, None, None
+            exit(0)
+#            return None, None, None
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = ""
@@ -230,6 +231,7 @@ def user_stats(df, city):
 
 
 def review_data(df):
+    """ Allow the user to view the data five lines at a time"""
     loop_counter = 1 #  this counter is used to determine which set of rows to display 
     done = None #  used to stop the loop
     while done != 'exit':
