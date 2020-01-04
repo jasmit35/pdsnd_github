@@ -52,7 +52,8 @@ def get_filters():
         month = input("===> ")
         month = month.lower()
         if month == "exit":
-            return None, None, None
+            exit(0)
+#            return None, None, None
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = ""
