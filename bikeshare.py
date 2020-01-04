@@ -42,7 +42,7 @@ def get_filters():
         city = str(input("===> "))
         city = city.lower()
         if city == "exit":
-            return None, None, None
+            exit(0) 
 
     # get user input for month (all, january, february, ... , june)
     month = ""
