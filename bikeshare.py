@@ -223,6 +223,7 @@ def user_stats(df, city):
 
 
 def review_data(df):
+    """ Allow the user to view the data five lines at a time"""
     loop_counter = 1 #  this counter is used to determine which set of rows to display 
     done = None #  used to stop the loop
     while done != 'exit':
