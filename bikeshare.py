@@ -1,3 +1,7 @@
+"""
+Bike Share - An interactive method of reporting share bike data for three select cities.
+"""
+
 import time
 import pandas as pd
 import numpy as np
